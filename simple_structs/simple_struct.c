@@ -12,18 +12,6 @@
 
 #include <stdio.h>
 #include "header.h"
-/*
-void store_1(t_struct data)
-{
-	data.a = 'a';
-	data.b = 'b';
-	data.c = 'c';
-	data.d = 'd';
-	data.num1 = 1;
-
-	printf("store:|%d|\n\n", data.num1);
-}
-*/
 
 void store_1(t_struct *data)
 {
